@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="/CSS/main.css"/>
+    <title>WAzaAA | WooO</title>
+  </head>
+  <body>
+    <div class="top_bar">
+    </div>
+    <div id="quick-menu">
+      <ul>
+        <li class="menu-item">
+          <a href="https://www.google.com/">
+            <span class="menu-text"> about </span></a></li>
+ 
+        <li class="menu-item">
+          <a href="https://www.google.com/">
+            <span class="menu-text"> blog </span></a></li>
+
+        <li class="menu-item">
+          <a href="https://www.google.com/">
+            <span class="menu-text"> here </span></a></li>
+      
+        <li class="menu-item">
+          <a href="https://www.google.com/"> 
+            <span class="menu-text"> there </span></a></li>
+      </ul>
+    </div>
+    <%= yield %> <!-- This magic yield is injecting the specific .erb file (i.e. index.erb) into our layout. -->
+  </body>
+</html>
