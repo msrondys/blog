@@ -1,0 +1,32 @@
+body {
+  margin:0px;
+  background-image:url("/CSS/images/flower.jpg"); 
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+
+.quick-menu {
+    float:right;
+    top:25px;
+/*    left: 500px;
+*/  height:70px;
+    width:70px;
+    background-color:#EBEBEB;
+    border-radius: 40px;
+    margin-right: 15px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.menu-text {
+  color:#000000;
+  line-height: 72px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.quick-menu a {
+  text-decoration: none;
+}
