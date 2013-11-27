@@ -27,6 +27,12 @@
             <span class="menu-text"> there </span></a></li>
       </ul>
     </div>
+
     <%= yield %> <!-- This magic yield is injecting the specific .erb file (i.e. index.erb) into our layout. -->
+
+      <% @posts.each do |post| %>
+        <a href="/blog/<%= post %>"><%= post%></a>
+      <% end %>
+           
   </body>
 </html>
