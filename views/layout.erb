@@ -5,7 +5,7 @@
     <link type="text/css" rel="stylesheet" href="/CSS/main.css"/>
     <title>WAzaAA | WooO</title>
   </head>
-  <body>
+  <body id="standard_pages">
     <div class="top_bar">
     </div>
     <div id="quick-menu">
@@ -29,10 +29,12 @@
     </div>
 
     <%= yield %> <!-- This magic yield is injecting the specific .erb file (i.e. index.erb) into our layout. -->
-
-      <% @posts.each do |post| %>
-        <a href="/blog/<%= post %>"><%= post%></a>
+      
+      <ul>
+      <% meta_data.sort_by {|post, date_hash| date_hash["date"]}.reverse.each do |post, meta_data| %>
+        <li><a href="/blog/<%= post %>"><%= post%></a></li>
       <% end %>
-           
+      </ul>
+
   </body>
 </html>
