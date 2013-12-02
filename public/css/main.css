@@ -1,4 +1,4 @@
-/*Home Page*/
+/*-----Home Page-----*/
 
 #home_page {
   margin:0 auto;
@@ -34,7 +34,6 @@
   text-align: center;
   font-weight: bold;
   font-size: 16px;
-
 }
 
 #cool_stuff header h1{
@@ -77,12 +76,10 @@
   margin-left: 80px;
   border-radius:25px;
   box-shadow: 3px 3px 2px #888888;
-
 }
 
 .blog_snippet a {
   text-decoration: none;
-
 }
 
 /*------Home Page CSS End--------*/
@@ -98,8 +95,7 @@ header {
   margin:0px;
   background-color: #4C4C4C; 
   background-size: 100%;
-/*background-repeat:no-repeat;
-*/font-family: Poiret One, cursive;
+  font-family: Poiret One, cursive;
 }
 
 .top_bar {
@@ -125,14 +121,12 @@ div#quick-menu ul {
   width:70px;
   background-color:#EBEBEB;
   border-radius: 40px;
-  /*margin-right: 30px;*/
   margin-top: 20px;
-  /* margin-left: 700px;*/
 
 }
+
 .menu-item:hover {
   background-color:#BAE1F4;
-
 }
 
 .menu-text {
@@ -148,9 +142,6 @@ div#quick-menu ul {
 
 .menu-item a {
   text-decoration: none;
-
 }
-
-
 
 /*--------Standard Pages CSS End---------*/
