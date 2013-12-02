@@ -15,7 +15,7 @@ class MySite < Sinatra::Base
     erb :home
   end
 
-  get "/blog" do
+  get "/blog/" do
     erb :blog
   end
 
